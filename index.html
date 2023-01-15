@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+    <title>Первая самостоятельная работа</title>
+</head>
+
+<body>
+    <header class="header">
+        <section class="header__logo__block">
+            <a class="header__logo" href="#">
+                <img width="44" height="38" src="img/header_logo.png" alt="header_logo">
+            </a>
+            <button class="header__buttons header__button-search" type="submit">
+                <svg width="27" height="28" viewBox="0 0 27 28" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                    d="M19.0589 17.6251C20.6705 15.865 21.6275 13.6039 21.769 11.2216C21.9106 8.83932 21.2281 6.48088 19.8362 4.54232C18.4443 2.60377 16.4278 1.20318 14.1252 0.575765C11.8227 -0.0516554 9.37437 0.132305 7.19143 1.09675C5.0085 2.0612 3.22389 3.74739 2.1373 5.87217C1.05071 7.99695 0.728322 10.4309 1.22426 12.7653C1.72021 15.0997 3.00428 17.1923 4.86085 18.6919C6.71741 20.1914 9.0334 21.0064 11.4199 21.0001C13.6723 21.0031 15.8638 20.2691 17.6599 18.9101L25.4079 26.7171C25.4934 26.8061 25.5958 26.8772 25.7091 26.9261C25.8225 26.9751 25.9444 27.0009 26.0679 27.0021C26.1916 27.0024 26.314 26.9773 26.4276 26.9283C26.5411 26.8793 26.6434 26.8074 26.7279 26.7171C26.9018 26.5362 26.999 26.295 26.999 26.0441C26.999 25.7931 26.9018 25.5519 26.7279 25.371L19.0589 17.6251ZM2.88589 10.5001C2.89873 8.81477 3.41021 7.17101 4.35586 5.776C5.30151 4.38098 6.63899 3.29715 8.1997 2.66114C9.76042 2.02513 11.4745 1.86542 13.1258 2.20213C14.7772 2.53884 16.2919 3.3569 17.479 4.55319C18.6661 5.74948 19.4725 7.27044 19.7965 8.92433C20.1204 10.5782 19.9475 12.291 19.2995 13.8468C18.6515 15.4026 17.5574 16.7316 16.1551 17.6665C14.7529 18.6014 13.1052 19.1002 11.4199 19.1C9.14843 19.0892 6.97409 18.1775 5.3741 16.5652C3.77412 14.9528 2.87924 12.7715 2.88589 10.5001Z" />
+                </svg>
+            </button>
+        </section>
+
+        <section class="header__buttons__block">
+            <div class="header__buttons header__buttons-menu">
+                <label for="pop-up-menu__open">
+                    <svg width="32" height="23" viewBox="0 0 32 23" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" />
+                    </svg>
+                </label>
+            </div>
+            <input id="pop-up-menu__open" type="checkbox">
+
+            <section class="pop-up-menu">
+                <p class="pop-up-menu__header">Menu</p>
+                <ul class="pop-up-menu__main">
+                    <li class="pop-up-menu__title">
+                        <a class="pop-up-menu__lists__txt-top" href="#">Man</a>
+                    </li>
+                    <li>
+                        <ul class="pop-up-menu__lists">
+                            <li class="pop-up-menu__item1">
+                                <a class="pop-up-menu__lists__txt" href="#">Accessories</a>
+                            </li>
+                            <li class="pop-up-menu__item">
+                                <a class="pop-up-menu__lists__txt" href="#">Bags</a>
+                            </li>
+                            <li class="pop-up-menu__item">
+                                <a class="pop-up-menu__lists__txt" href="#">Denim</a>
+                            </li>
+                            <li class="pop-up-menu__item">
+                                <a class="pop-up-menu__lists__txt" href="#">T-Shirts</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="pop-up-menu__title">
+                        <a class="pop-up-menu__lists__txt-top" href="#">Woman</a>
+                    </li>
+                    <li>
+                        <ul class="pop-up-menu__lists">
+                            <li class="pop-up-menu__item1">
+                                <a class="pop-up-menu__lists__txt" href="#">Accessories</a>
+                            </li>
+                            <li class="pop-up-menu__item">
+                                <a class="pop-up-menu__lists__txt" href="#">Jackets &amp;&nbsp;Coats</a>
+                            </li>
+                            <li class="pop-up-menu__item">
+                                <a class="pop-up-menu__lists__txt" href="#">Polos</a>
+                            </li>
+                            <li class="pop-up-menu__item">
+                                <a class="pop-up-menu__lists__txt" href="#">T-Shirts</a>
+                            </li>
+                            <li class="pop-up-menu__item">
+                                <a class="pop-up-menu__lists__txt" href="#">Shirts</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="pop-up-menu__title">
+                        <a class="pop-up-menu__lists__txt-top" href="#">Kids</a>
+                    </li>
+                    <li>
+                        <ul class="pop-up-menu__lists">
+                            <li class="pop-up-menu__item1">
+                                <a class="pop-up-menu__lists__txt" href="#">Accessories</a>
+                            </li>
+                            <li class="pop-up-menu__item">
+                                <a class="pop-up-menu__lists__txt" href="#">Jackets &amp;&nbsp;Coats</a>
+                            </li>
+                            <li class="pop-up-menu__item">
+                                <a class="pop-up-menu__lists__txt" href="#">Polos</a>
+                            </li>
+                            <li class="pop-up-menu__item">
+                                <a class="pop-up-menu__lists__txt" href="#">T-Shirts</a>
+                            </li>
+                            <li class="pop-up-menu__item">
+                                <a class="pop-up-menu__lists__txt" href="#">Shirts</a>
+                            </li>
+                            <li class="pop-up-menu__item">
+                                <a class="pop-up-menu__lists__txt" href="#">Bags</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <button class="header__buttons header___buttons-account" type="button">
+                <svg width="29" height="29" viewBox="0 0 29 29" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                    d="M14.5 19.937C19 19.937 22.656 15.464 22.656 9.968C22.656 4.472 19 0 14.5 0C13.3631 0.0217413 12.2463 0.303398 11.2351 0.823397C10.2239 1.34339 9.34507 2.08794 8.66602 3C7.12663 4.99573 6.30819 7.45381 6.34399 9.974C6.34399 15.465 10 19.937 14.5 19.937ZM14.5 1.813C18 1.813 20.844 5.472 20.844 9.969C20.844 14.466 17.998 18.125 14.5 18.125C11.002 18.125 8.15603 14.465 8.15503 9.969C8.15403 5.473 11 1.813 14.5 1.813ZM20.844 18.125C20.6036 18.125 20.373 18.2205 20.203 18.3905C20.033 18.5605 19.9375 18.7911 19.9375 19.0315C19.9375 19.2719 20.033 19.5025 20.203 19.6725C20.373 19.8425 20.6036 19.938 20.844 19.938C22.526 19.9399 24.1386 20.6088 25.3279 21.7982C26.5172 22.9875 27.1861 24.6 27.188 26.282C27.1875 26.5221 27.0918 26.7523 26.922 26.9221C26.7522 27.0918 26.5221 27.1875 26.282 27.188H2.71997C2.47985 27.1875 2.24975 27.0918 2.07996 26.9221C1.91016 26.7523 1.81449 26.5221 1.81396 26.282C1.81608 24.6001 2.48517 22.9877 3.67444 21.7985C4.86371 20.6092 6.47608 19.9401 8.15796 19.938C8.39825 19.938 8.62868 19.8425 8.79858 19.6726C8.96849 19.5027 9.06396 19.2723 9.06396 19.032C9.06396 18.7917 8.96849 18.5613 8.79858 18.3914C8.62868 18.2215 8.39825 18.126 8.15796 18.126C5.99541 18.1279 3.92201 18.9875 2.39258 20.5164C0.863144 22.0453 0.00264777 24.1185 0 26.281C0.000794067 27.0019 0.287502 27.693 0.797241 28.2027C1.30698 28.7125 1.99811 28.9992 2.71899 29H26.282C27.0027 28.9989 27.6936 28.7121 28.2031 28.2024C28.7126 27.6927 28.9992 27.0017 29 26.281C28.9974 24.1187 28.1372 22.0457 26.6083 20.5168C25.0793 18.9878 23.0063 18.1276 20.844 18.125Z" />
+                </svg>
+            </button>
+
+            <a class="header__buttons header__buttons-buy" href="#">
+                <svg width="35" height="32" viewBox="0 0 42 37" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                    d="M26.2009 37C25.5532 36.9738 24.9415 36.6948 24.4972 36.2227C24.0529 35.7506 23.8114 35.1232 23.8245 34.475C23.8376 33.8269 24.1043 33.2097 24.5673 32.7559C25.0303 32.3022 25.6527 32.048 26.301 32.048C26.9493 32.048 27.5717 32.3022 28.0347 32.7559C28.4977 33.2097 28.7644 33.8269 28.7775 34.475C28.7906 35.1232 28.549 35.7506 28.1047 36.2227C27.6604 36.6948 27.0488 36.9738 26.401 37H26.2009ZM6.75293 34.32C6.75293 33.79 6.91011 33.2718 7.20459 32.8311C7.49907 32.3904 7.91764 32.0469 8.40735 31.844C8.89705 31.6412 9.43594 31.5881 9.95581 31.6915C10.4757 31.7949 10.9532 32.0502 11.328 32.425C11.7028 32.7998 11.9581 33.2773 12.0615 33.7972C12.1649 34.317 12.1118 34.8559 11.9089 35.3456C11.7061 35.8353 11.3626 36.2539 10.9219 36.5483C10.4812 36.8428 9.96304 37 9.43298 37C9.08087 37.0003 8.73212 36.9311 8.40674 36.7966C8.08136 36.662 7.78569 36.4646 7.53662 36.2158C7.28755 35.9669 7.09001 35.6713 6.9552 35.3461C6.82039 35.0208 6.75098 34.6721 6.75098 34.32H6.75293ZM10.553 28.686C10.2935 28.6868 10.0409 28.6024 9.83411 28.4457C9.62727 28.2891 9.47758 28.0689 9.40796 27.819L4.57495 10.364H1.18201C0.868521 10.364 0.567859 10.2395 0.346191 10.0178C0.124523 9.79614 0 9.49549 0 9.18201C0 8.86852 0.124523 8.56787 0.346191 8.3462C0.567859 8.12454 0.868521 8.00001 1.18201 8.00001H5.46301C5.7225 7.99919 5.97504 8.08372 6.18176 8.24057C6.38848 8.39742 6.53784 8.61788 6.60693 8.86801L11.4399 26.323H24.6179L29.001 16.275H14.401C14.2428 16.2796 14.0854 16.2524 13.9379 16.1951C13.7904 16.1377 13.6559 16.0513 13.5424 15.9411C13.4288 15.8308 13.3386 15.6989 13.277 15.5532C13.2154 15.4074 13.1836 15.2508 13.1836 15.0925C13.1836 14.9343 13.2154 14.7776 13.277 14.6319C13.3386 14.4861 13.4288 14.3542 13.5424 14.2439C13.6559 14.1337 13.7904 14.0473 13.9379 13.9899C14.0854 13.9326 14.2428 13.9054 14.401 13.91H30.814C31.0097 13.91 31.2022 13.9587 31.3744 14.0517C31.5465 14.1448 31.6928 14.2793 31.7999 14.443C31.9078 14.6073 31.9734 14.7957 31.9908 14.9914C32.0083 15.1872 31.9771 15.3842 31.9 15.565L26.495 27.977C26.4026 28.1876 26.251 28.3668 26.0585 28.4927C25.866 28.6186 25.641 28.6858 25.411 28.686H10.553Z" />
+                    <path
+                    d="M31.502 19C36.7487 19 41.002 14.7467 41.002 9.5C41.002 4.25329 36.7487 0 31.502 0C26.2552 0 22.002 4.25329 22.002 9.5C22.002 14.7467 26.2552 19 31.502 19Z"
+                    fill="#F16D7F" />
+                    <path
+                    d="M30.8146 7.648C31.2626 7.552 31.6746 7.504 32.0506 7.504C32.4986 7.504 32.8946 7.57 33.2386 7.702C33.5826 7.834 33.8686 8.016 34.0966 8.248C34.3286 8.48 34.5026 8.754 34.6186 9.07C34.7386 9.386 34.7986 9.73 34.7986 10.102C34.7986 10.558 34.7186 10.97 34.5586 11.338C34.4026 11.706 34.1846 12.022 33.9046 12.286C33.6286 12.546 33.3026 12.746 32.9266 12.886C32.5506 13.026 32.1446 13.096 31.7086 13.096C31.4566 13.096 31.2146 13.07 30.9826 13.018C30.7506 12.97 30.5326 12.904 30.3286 12.82C30.1286 12.736 29.9426 12.64 29.7706 12.532C29.5986 12.424 29.4466 12.31 29.3146 12.19L29.6446 11.734C29.7166 11.63 29.8106 11.578 29.9266 11.578C30.0066 11.578 30.0966 11.61 30.1966 11.674C30.2966 11.734 30.4186 11.802 30.5626 11.878C30.7066 11.954 30.8746 12.024 31.0666 12.088C31.2626 12.148 31.4946 12.178 31.7626 12.178C32.0626 12.178 32.3326 12.13 32.5726 12.034C32.8126 11.938 33.0186 11.802 33.1906 11.626C33.3626 11.446 33.4946 11.232 33.5866 10.984C33.6786 10.736 33.7246 10.458 33.7246 10.15C33.7246 9.882 33.6846 9.64 33.6046 9.424C33.5286 9.208 33.4106 9.024 33.2506 8.872C33.0946 8.72 32.8986 8.602 32.6626 8.518C32.4266 8.434 32.1506 8.392 31.8346 8.392C31.6186 8.392 31.3926 8.41 31.1566 8.446C30.9246 8.482 30.6866 8.54 30.4426 8.62L29.7706 8.422L30.4606 4.402H34.5346V4.87C34.5346 5.022 34.4866 5.148 34.3906 5.248C34.2986 5.344 34.1386 5.392 33.9106 5.392H31.2106L30.8146 7.648Z"
+                    fill="white" />
+                </svg>
+            </a>
+        </section>
+    </header>
+
+    <section class="top__content__block">
+        <article class="top__content__block-photo"></article>
+
+        <article class="top__content__block__txt">
+            <h2 class="top__content__title"> the brand</h2>
+            <h3 class="top__content__subtitle">of luxerious<span class="top__content__subtitle_red"> fashion</span></h3>
+        </article>
+    </section>
+
+    <section class="central__content__block">
+        <article class="central__content__block__item central__content__block__item1">
+            <h2 class="central__content__subtitle">30% off</h2>
+            <h3 class="central__content__title">for women</h3>
+        </article>
+        <article class="central__content__block__item central__content__block__item2">
+            <h2 class=" central__content__subtitle">hot deal</h2>
+            <h3 class="central__content__title">for men</h3>
+        </article>
+        <article class="central__content__block__item central__content__block__item3">
+            <h2 class="central__content__subtitle">new arrivals</h2>
+            <h3 class="central__content__title">for kids</h3>
+        </article>
+        <article class="central__content__block__item central__content__block__item4">
+            <h2 class="central__content__subtitle">luxerious & trendly</h2>
+            <h3 class="central__content__title">accesories</h3>
+        </article>
+    </section>
+
+    <section class="products">
+        <article class="products__top__heading">
+            <h3 class="products__top__heading__title">Fetured Items</h3>
+            <p class="products__top__heading__txt">Shop for items based on what we featured in this week</p>
+        </article>
+
+        <article class="products__shop">
+            <div class="products__shop__card products__shop__card1">
+                <div class="product__card-img">
+                    <img class="product__card-photo" width="360" height="420" src="img/product_card1.jpg"
+                    alt="product_card1">
+                </div>
+                <h3 class="products__shop__card__title products__shop__card__title1">ellery x m'o capsule</h3>
+                <p class="products__shop__card__txt products__shop__card__txt1">Known for her sculptural takes on
+                    traditional tailoring, Australian
+                    arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                <p class="products__shop__card__price products__shop__card__price1">$52.00</p>
+                <button class="products__shop__card-btn" type="button">Add to Chart</button>
+            </div>
+
+            <div class="products__shop__card products__shop__card2">
+                <div class="product__card-img products__shop__card__img2">
+                    <img class="shop__card2__photo" width="142" height="400" src="img/product_card2.png"
+                    alt="product_card2">
+                </div>
+                <h3 class="products__shop__card__title">ellery x m'o capsule</h3>
+                <p class="products__shop__card__txt">Known for her sculptural takes on traditional tailoring,
+                    Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                <p class="products__shop__card__price">$52.00</p>
+                <button class="products__shop__card-btn" type="button">Add to Chart</button>
+            </div>
+
+            <div class="products__shop__card products__shop__card3">
+                <div class="product__card-img">
+                    <img class="product__card-photo" width="360" height="420" src="img/product_card3.png"
+                    alt="products__card3">
+                </div>
+                <h3 class="products__shop__card__title">ellery x m'o capsule</h3>
+                <p class="products__shop__card__txt">Known for her sculptural takes on traditional tailoring,
+                    Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                <p class="products__shop__card__price">$52.00</p>
+                <button class="products__shop__card-btn" type="button">Add to Chart</button>
+            </div>
+
+            <div class="products__shop__card products__shop__card4">
+                <div class="product__card-img">
+                    <img class="product__card-photo" width="360" height="420" src="img/product_card4.png"
+                    alt="products__card4">
+                </div>
+                <h3 class="products__shop__card__title">ellery x m'o capsule</h3>
+                <p class="products__shop__card__txt">Known for her sculptural takes on traditional tailoring,
+                    Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                <p class="products__shop__card__price">$52.00</p>
+                <button class="products__shop__card-btn" type="button">Add to Chart</button>
+            </div>
+
+            <div class="products__shop__card products__shop__card5">
+                <div class="product__card-img">
+                    <img class="product__card-photo" width="360" height="420" src="img/product_card5.png"
+                    alt="products__card5">
+                </div>
+                <h3 class="products__shop__card__title">ellery x m'o capsule</h3>
+                <p class="products__shop__card__txt">Known for her sculptural takes on traditional tailoring,
+                    Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                <p class="products__shop__card__price">$52.00</p>
+                <button class="products__shop__card-btn" type="button">Add to Chart</button>
+            </div>
+
+            <div class="products__shop__card products__shop__card6">
+                <div class="product__card-img">
+                    <img class="product__card-photo" width="360" height="420" src="img/product_card6.png"
+                    alt="products__card6">
+                </div>
+                <h3 class="products__shop__card__title">ellery x m'o capsule</h3>
+                <p class="products__shop__card__txt">Known for her sculptural takes on traditional tailoring,
+                    Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                <p class="products__shop__card__price">$52.00</p>
+                <button class="products__shop__card-btn" type="button">Add to Chart</button>
+            </div>
+        </article>
+    </section>
+
+    <section class="products__shop__reference__card">
+        <a href="#" class="products__shop__reference">
+            <p class="products__shop__reference__txt">Browse All Product</p>
+        </a>
+    </section>
+
+    <section class="advantages">
+        <article class="advantages__part">
+            <h3 class="advantages__title advantages__title1">Free Delivery</h3>
+            <p class="advantages__txt">Worldwide delivery on all. Authorit tively morph</p>
+            <p class="advantages__txt">next-generation innov tion with extensive models.</p>
+        </article>
+        <article class="advantages__part">
+            <h3 class="advantages__title advantages__title2">Sales & discounts</h3>
+            <p class="advantages__txt">Worldwide delivery on all. Authorit tively morph</p>
+            <p class="advantages__txt">next-generation innov tion with extensive models.</p>
+        </article>
+        <article class="advantages__part">
+            <h3 class="advantages__title advantages__title3">Quality assurance</h3>
+            <p class="advantages__txt">Worldwide delivery on all. Authorit tively morph</p>
+            <p class="advantages__txt">next-generation innov tion with extensive models.</p>
+        </article>
+    </section>
+
+    <section class="basket">
+        <h1 class="basket__top">Товары в корзине.</h1>
+        <div class="basket__item"></div>
+    </section>
+
+    <section class="subscribe-block">
+        <article class="subscribe-block__content">
+            <div class="subscribe-block--info">
+                <p class="subscribe-block--info__txt">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                    pulvinar
+                    purus condimentum“</p>
+            </div>
+            <div class="subscribe-block--card">
+                <h2 class="subscribe-block--card__title">Subscribe</h2>
+                <p class="subscribe-block--card__txt">for our newletter and promotion</p>
+                <form action="#">
+                    <input class="subscribe__input-txt" type="email" placeholder="Enter Your Email">
+                    <button class="subscribe__input-btn" type="button">Subscribe</button>
+                </form>
+            </div>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <section class="footer--content">
+            <article class="footer--copyright">
+                <p class="copyright__txt">&copy; 2022 Brand All Rights Reserved.</p>
+            </article>
+            <article class="social-icon">
+                <a class="social-icon__link" href="https://ru-ru.facebook.com/" target="_blank">
+                    <svg class="social-icon__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                        d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                    </svg>
+                </a>
+
+                <a class="social-icon__link" href="https://www.instagram.com/" target="_blank">
+                    <svg class="social-icon__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </a>
+
+                <a class="social-icon__link" href="https://ru.pinterest.com/" target="_blank">
+                    <svg class="social-icon__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                        <path
+                        d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z" />
+                    </svg>
+                </a>
+
+                <a class="social-icon__link" href="https://twitter.com/?lang=ru" target="_blank">
+                    <svg class="social-icon__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                    </svg>
+                </a>
+            </article>
+        </section>
+    </footer>
+
+    <script src="basketAdd.js"></script>
+</body>
+
+</html>
